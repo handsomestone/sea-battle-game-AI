@@ -1,0 +1,6 @@
+C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C#\bin\Release\AI.exe
+C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C#\bin\Release\AI.pdb
+C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C#\bin\Release\MSTCOSSDK.dll
+C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C#\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C#\obj\x86\Release\AI.exe
+C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C#\obj\x86\Release\AI.pdb

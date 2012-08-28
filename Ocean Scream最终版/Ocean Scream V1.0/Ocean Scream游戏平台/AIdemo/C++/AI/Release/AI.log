@@ -1,0 +1,47 @@
+﻿生成启动时间为 2012/4/21 8:20:57。
+     1>项目“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\AI\AI.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\AI.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\工具\编程工具\vs2010中文版\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AI.cpp
+         AI.cpp
+     1>c:\users\zhoukaidi\desktop\ocean scream v1.0\ocean scream游戏平台\aidemo\c++\ai\MSTCOSSDK.h(87): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“OSInterface”的左侧
+     1>c:\users\zhoukaidi\desktop\ocean scream v1.0\ocean scream游戏平台\aidemo\c++\ai\MSTCOSSDK.h(93): warning C4251: “MSTCOSSDK::Interface”: class“OSInterface”需要有 dll 接口由 class“MSTCOSSDK”的客户端使用
+                 c:\users\zhoukaidi\desktop\ocean scream v1.0\ocean scream游戏平台\aidemo\c++\ai\MSTCOSSDK.h(63) : 参见“OSInterface”的声明
+     1>AI.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+     1>AI.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+     1>AI.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         e:\工具\编程工具\vs2010中文版\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\AI.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\AI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\AI.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\AI.lib" /MACHINE:X86 Release\AI.obj
+         MSTCOSSDK.lib
+            正在创建库 C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\AI.lib 和对象 C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\AI.exp
+         正在生成代码
+         已完成代码的生成
+     1>MSTCOSSDK.lib(MSTCOSSDK.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(MSTCOSSDK.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(OSInterface.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(OSInterface.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(StopRequest.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(StopRequest.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(StartRotatingToRequest.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(StartRotatingToRequest.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(StopRotatingRequest.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(StopRotatingRequest.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(utility.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(utility.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(AttackRequest.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(AttackRequest.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(StartMovingRequest.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(StartMovingRequest.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(ShipInfo.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(ShipInfo.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(DataRequest.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(DataRequest.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(StopMovingRequest.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(StopMovingRequest.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(ColorRequest.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(ColorRequest.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(ResourceInfo.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(ResourceInfo.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(StartRotatingRequest.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(StartRotatingRequest.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>MSTCOSSDK.lib(MoveToRequest.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“MSTCOSSDK.lib(MoveToRequest.obj)”或在“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         AI.vcxproj -> C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\AI.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\Release\AI.exe;#1" /manifest Release\AI.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\AI.unsuccessfulbuild”。
+         正在对“Release\AI.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\zhoukaidi\Desktop\Ocean Scream V1.0\Ocean Scream游戏平台\AIdemo\C++\AI\AI.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.16
